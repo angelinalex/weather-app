@@ -1,0 +1,22 @@
+.details-container {
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    align-items: center; 
+    justify-content: space-between;
+
+
+    padding: 20px;
+}
+
+.temperature-img,
+.wind-img,
+.water-img,
+.uv-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+    transform: translateY(25%);
+}

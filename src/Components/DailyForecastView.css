@@ -1,0 +1,75 @@
+.daily-forecast-container {
+    margin-top: 20px;
+    width: 80%;
+    background-color: rgb(53, 89, 129, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .daily-forecast-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  .daily-forecast-container ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .forecast-header {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.529);
+  }
+  
+  .day-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cal-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .daily-temp-text {
+    display: flex;
+    font-size: small;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .daily-forecast-container li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .daily-forecast-container li p {
+    margin: 0;
+  }
+  
+  .daily-forecast-container li:not(:last-child) {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.529);
+  }
+  
+  .weekday-text {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .day-details {
+    display: flex;
+    align-items: center;
+  }
+  

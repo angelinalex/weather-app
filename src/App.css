@@ -1,0 +1,112 @@
+.weather-dashboard {
+  background: rgb(74,103,129);
+  background: linear-gradient(0deg, rgb(170, 202, 231) 0%, rgba(70,126,178,1) 71%);
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.recent-container{
+  width: 80%;
+  justify-content: center;
+}
+
+body{
+  background:  rgb(170, 202, 231)
+}
+.selector {
+  margin-bottom: 20px; /* Add margin to separate from the CurrentWeatherView */
+  margin-top: 20px;
+  margin-right: auto;
+
+  border-radius: 10px;
+  border: 0px solid rgba(53, 89, 129, 0.4);
+  background-color: rgba(53, 89, 129, 0.4);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.clock-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  transform: translateY(25%);
+}
+
+
+.search-button{
+  background-color: transparent;
+  border: 0px solid transparent;
+  background-color:  transparent;
+  box-shadow: 0 0 0px  transparent;
+  
+  color: white;
+
+}
+
+.city-input {
+  display: flex;
+  justify-content: center;
+  width: 85%; /* Set the width of the input container */
+  margin-bottom: 20px; /* Add margin to separate from the CurrentWeatherView */
+  margin-top: 20px; 
+  border-radius: 10px;
+  border: 0px solid rgb(53, 89, 129, 0.4);
+  background-color: rgb(53, 89, 129, 0.4);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); 
+}
+
+input[type="text"] {
+  width: 100%; /* Set the width of the input box to 100% */
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px solid rgb(53, 89, 129, 0.4);
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); 
+  color: white;
+}
+
+input[type="text"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.unit-buttons-container {
+  color: white; /* Text color */
+  padding: 30px;
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.location-button{
+  background-color: transparent; /* Make the background transparent */
+  border: none;
+  width: 30px;
+
+}
+
+
+.location-img{
+  width: 30px;
+  height: 30px;
+}
+
+.unit-buttons-container button {
+  background-color: transparent; /* Make the background transparent */
+  border: none; /* Remove the border */
+  color: white; /* Text color */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin: 0 5px; /* Adjust margin between buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+

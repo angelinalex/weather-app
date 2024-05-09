@@ -1,0 +1,30 @@
+.weather-difference-bar {
+    position: relative;
+    width: 60px; 
+    height: 5px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(125, 141, 147);
+    transform: translateY(75%);
+    border-radius: 3px;
+  }
+  
+
+  .bar-horizontal {
+ 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange; 
+    border-radius: 3px; 
+  }
+  
+  .bar-vertical {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+  }
+  
